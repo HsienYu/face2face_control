@@ -38,8 +38,8 @@ def remap( x, oMin, oMax, nMin, nMax ):
 
     return result
 
-#cascPath = sys.argv[0]
-cascPath = "/Users/HsienYu/Desktop/skyrock/face2face/haarcascade_frontalface_default.xml"
+cascPath = sys.argv[1]
+#cascPath = "/Users/HsienYu/Desktop/skyrock/face2face/haarcascade_frontalface_default.xml"
 
 faceCascade = cv2.CascadeClassifier(cascPath)
 
